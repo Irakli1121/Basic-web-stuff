@@ -1,0 +1,47 @@
+#calculatorMainDiv{
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#calcTable{
+    border: 10px solid gray;
+    border-radius: 5%;
+}
+
+.numButton{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background:black;
+    color:white;
+    border-radius: 10%;
+    font-size: 50px;
+}
+
+.calcButtons{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background:black;
+    color:white;
+    border-radius: 10%;
+    font-size: 50px;
+}
+
+#add{
+    background: orange;
+}
+#equals{
+    background: orangered;
+}
+
+#display{
+    height: 80px;
+    /* width: auto; */
+    border-radius: 5%;
+    background: darkgray;
+    border: 2px solid black;
+    font-size: 60px;
+    text-align: right;
+}
