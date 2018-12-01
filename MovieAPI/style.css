@@ -1,0 +1,53 @@
+.movieList li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#wrapper {
+    text-align: center;
+}
+#formDiv {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#listDiv{
+    margin-top: 30px;
+}
+
+.movieList{
+    margin-top: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#headerButton{
+    margin-top:20px;
+    background:transparent;
+    border:none;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#center{
+    width: 30%; 
+    margin: 25px auto;
+}
+
+body{
+    background: rgb(22, 70, 126);
+}
+
+#submitButton{
+    border-radius:5%;
+}
+
+a{
+    color: white;
+}
+
+#imdbIcon{
+    margin-right: 5px;
+}
