@@ -1,0 +1,25 @@
+#main{
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.myRow{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#empty{
+    width: 72px;
+    height: 107px;
+}
+
+img{
+    width: 72px;
+    height:107px;
+}
