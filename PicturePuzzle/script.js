@@ -52,8 +52,8 @@ document.getElementById("main").addEventListener('click', (event)=>{
         currentImagesOrder.push(parseInt(tmpImg[tmpImg.length-5]));
     }
 
-    //console.log(currentImagesOrder);
-    //console.log(divOrder);
+    console.log(currentImagesOrder);
+    console.log(divOrder);
     let youWon = true;
     for (let i=0; i<8; i++){
         if (currentImagesOrder[i] != divOrder[i]){
@@ -64,7 +64,11 @@ document.getElementById("main").addEventListener('click', (event)=>{
         }
     }
 
-    if (youWon){
+    let thirdRow = document.getElementById("thirdRow");
+
+    console.log()
+
+    if (youWon && thirdRow.childNodes[5].id == "empty"){
         document.getElementById("won").innerHTML = "<h1>You have won</h1>"
     }
 

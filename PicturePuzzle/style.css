@@ -8,7 +8,7 @@
     display: inline-block;
 }
 
-h1{
+#header{
     text-align: center;
     width: 50%;
     margin: 0 auto;
@@ -23,3 +23,8 @@ img{
     width: 72px;
     height:107px;
 }
+
+#originalImage{
+    width: 20%;
+    height: 20%;
+  }
