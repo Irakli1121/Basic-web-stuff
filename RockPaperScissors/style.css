@@ -1,0 +1,34 @@
+body{
+    background: rgb(27, 161, 179);
+    color: white;
+}
+#title{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#winScore{
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+#playerMoves{
+    margin: 20px;
+}
+
+.empty{ 
+    padding-bottom: 102px;
+}
+
+#game{
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#displayResultText{
+    margin: auto;
+    width: 50%;
+}
