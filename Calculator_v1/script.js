@@ -119,7 +119,7 @@ function operationFunc(firstOperand, operation, secondOperand){
             break;
         case "subtract":
             operationSymbol = "-";
-            breakl
+            break;
         case "multiplication":
             operationSymbol = "*";
             break;
